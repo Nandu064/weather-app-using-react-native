@@ -1,10 +1,11 @@
 import React from 'react'
-import { View, StyleSheet, Platform } from 'react-native'
+import { View, StyleSheet, Platform, Text } from 'react-native'
 import { Picker } from '@react-native-community/picker'
 
 export default function UnitsPicker({ unitsSystem, setUnitsSystem }) {
     return (
         <View style={styles.unitsSystem}>
+            <Text>Select units</Text>
             <Picker
                 selectedValue={unitsSystem}
                 onValueChange={(item) => setUnitsSystem(item)}
