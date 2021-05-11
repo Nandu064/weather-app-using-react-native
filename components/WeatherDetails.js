@@ -20,7 +20,7 @@ export default function WeatherDetails({ currentWeather, unitsSystem }) {
                     <View style={styles.weatherDetailsRow}>
                         <FontAwesome5 name="temperature-low" size={25} color={PRIMARY_COLOR} />
                         <View style={styles.weatherDetailsItems}>
-                            <Text>Feels like :</Text>
+                            <Text>Real feel:</Text>
                             <Text style={styles.textSecondary}>{feels_like} °</Text>
                         </View>
                     </View>

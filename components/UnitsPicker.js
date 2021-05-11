@@ -5,7 +5,7 @@ import { Picker } from '@react-native-community/picker'
 export default function UnitsPicker({ unitsSystem, setUnitsSystem }) {
     return (
         <View style={styles.unitsSystem}>
-            <Text>Select units</Text>
+            <Text>Select Units</Text>
             <Picker
                 selectedValue={unitsSystem}
                 onValueChange={(item) => setUnitsSystem(item)}
