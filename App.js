@@ -6,7 +6,7 @@ import WeatherInfo from './components/WeatherInfo'
 import UnitsPicker from './components/UnitsPicker'
 import ReloadIcon from './components/ReloadIcon'
 import WeatherDetails from './components/WeatherDetails'
-import { colors } from './utils/index'
+import { colors } from './includes/colors' 
 // import { WEATHER_API_KEY } from 'react-native-dotenv'
 
 const WEATHER_API_KEY = '5d707b7518b4d11e3334636d63e601c0'
